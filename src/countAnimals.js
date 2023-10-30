@@ -4,11 +4,11 @@ const countAnimals = (animal) => {
   const { species } = data;
 
   if (!animal) {
-    const animalCount = species.reduce((acc, specie) => ({
+    const countTheAnimals = species.reduce((acc, specie) => ({
       ...acc,
       [specie.name]: specie.residents.length,
     }), {});
-    return animalCount;
+    return countTheAnimals;
   }
 
   const matchingSpecies = species.find((specie) => specie.name === animal.species);
