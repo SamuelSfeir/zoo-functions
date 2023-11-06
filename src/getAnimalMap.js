@@ -81,19 +81,24 @@ const getAnimalIfSexIsSpecified = (location, sex, sort) => {
 
 // Função que retorna a localização dos animais, levando em conta o sexo e a ordenação alfabética
 // Function that retorn the localization of the animals, considering its sex and alphabetical order
+function createGeneralLocation2nd(sex, sort) {
+  return {
+    NE: getAnimalIfSexIsSpecified('NE', sex, sort),
+    NW: getAnimalIfSexIsSpecified('NW', sex, sort),
+    SE: getAnimalIfSexIsSpecified('SE', sex, sort),
+    SW: getAnimalIfSexIsSpecified('SW', sex, sort),
+  };
+}
 
-
-
-
-
-
-
-
-
-
-
+// Funcão principal
+// Main function
 const getAnimalMap = (options) => {
-  // seu código aqui
+  if (!options) return createGeneralLocation();
+  if (typeof (options) === 'object') {
+    const includeNames = verifyIncludeNames(options);
+    if (!includeNames) return createGeneralLocation();
+    return createGeneralLocation2nd(options.sex, options.sorted);
+  }
 };
 
 module.exports = getAnimalMap;
