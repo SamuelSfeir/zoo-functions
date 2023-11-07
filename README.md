@@ -1,5 +1,7 @@
 # Zoológico Manager 🐾
 
+![Alt Text](https://github.com/SamuelSfeir/zoo-functions/blob/dd11d276b2b74fa2d6a1548b73cac1120e97490f/Samuel%20Sfeir%20Zoo%20Functions%20Project.png)
+
 ## Estrutura de Pastas
 
 - **src**: Implementações das funções.
