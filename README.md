@@ -13,7 +13,7 @@
 
 - **src**: Implementações das funções.
 - **test**: Arquivos de testes unitários.
-- **evaluator**: Funções prontas para os quais você implementará testes para cobertura de código.
+- **evaluator**: Funções prontas para os quais tive que implementar testes para cobertura de código.
 - **data**: Contém o arquivo `zoo_data.js` com os dados necessários.
 
 ## Funcionalidades e Requisitos
