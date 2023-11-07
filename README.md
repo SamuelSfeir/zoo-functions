@@ -1,4 +1,4 @@
-# Zoológico Manager 🐾
+# Zoo Functions Project 🐾
 
 ![README zoo image](https://github.com/SamuelSfeir/zoo-functions/blob/e9701400f9a6b68c33347aa13a8fc706b770bd25/Samuel%20Sfeir.png)
 
