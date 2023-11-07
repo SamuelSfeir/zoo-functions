@@ -2,6 +2,13 @@
 
 ![README zoo image](https://github.com/SamuelSfeir/zoo-functions/blob/e9701400f9a6b68c33347aa13a8fc706b770bd25/Samuel%20Sfeir.png)
 
+## Seja bem vindo ao repositório deste projeto
+
+- Este projeto foi desenvolvido como parte de uma missão da prefeitura da cidade para organizar e gerenciar informações sobre o zoológico.
+- As funções foram construídas com foco nas habilidades de ES6, Higher Order Functions e testes para assegurar a qualidade e confiabilidade do código.
+- O objetivo principal deste projeto é oferecer um conjunto de funções que possibilitam a busca de informações sobre os animais do zoológico, como sua espécie e local de origem.
+- Além disso, também visa coletar dados sobre as pessoas envolvidas na manutenção e cuidado dos animais.
+  
 ## Estrutura de Pastas
 
 - **src**: Implementações das funções.
